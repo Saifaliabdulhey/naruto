@@ -1,0 +1,33 @@
+
+.project-content {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    color: #fff;
+}
+
+.footer-div {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.projects-img {
+    .project-img{
+        width: 300px;
+        filter: invert(100%);
+        margin-right:3rem;
+    }
+}
+
+.project-title {
+    font-family: 'PT Sans', sans-serif;
+    p {
+        width: 500px;
+    }
+}
+
+
+.project-body {
+    margin-bottom: 40rem
+}

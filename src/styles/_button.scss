@@ -1,0 +1,41 @@
+.button {
+    border: none;
+    padding: 10px 60px;
+    background: rgb(255, 255, 255);
+    border-radius: 3px;
+    transition: all 0.3s;
+    &:hover {
+        background: #5c26c1c5; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #5807eef1, #5900fd, #003bfd); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #1555e0be, #4300fdb9, #5900fd);
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+    }
+}
+
+.item:hover .button {
+    background: #5c26c1c5; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5807eef1, #5900fd, #5900fd); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f3f3f3fb, #0019fdb9, #5900fd);
+    color: rgb(255, 255, 255);
+}
+
+.btn-cv {
+    border: 1px solid;
+    padding: 10px 60px;
+    background: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    transition: all 0.3s;
+    margin-left: 15px;
+    &:hover {
+        background: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+    }
+
+    @media (max-width: $desktop-breakpoint) {
+        padding: 10px 40px;
+        margin: 10px;
+    }
+}
